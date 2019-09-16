@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Libre+Baskerville:400,400i,700&display=swap');
+
+body{
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+header{
+	background-color: #e57ad1;
+	padding: 2px 0;
+	position: fixed;
+	height: auto;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.navbar{
+	align-items: center;
+	margin: 0 150px;
+}
+
+.navbar-item{
+	margin-right: 100px;
+}
+
+.espacio-navbar-item{
+	margin-right: 30px;
+}
+
+.padding-secciones{
+	padding: 70px 0;
+	min-height: 300px;
+}
+
+#acerca{
+	background-size: cover;
+	background-position: top;
+	padding: 10% 0;
+	color: #fff;
+	position: relative;
+}
+
+.acerca-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.50);
+}
+
+#acerca h1{
+	color: #e57ad1;
+	font-size: 70px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+}
+
+#acerca p{
+	font-size: 20px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+#acerca h1{
+	font-size: 50px;
+	padding-top: 350px;
+}
+
+.titulos{
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	color: #bc40aa;
+	font-size: 40px;
+
+}
+
+.subtitulos{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #949494;
+	font-size: 20px;
+}
+
+#servicios{
+	color: #949494;
+}
+
+#servicios h3{
+	color: #bc40aa;
+	font-size: 25px;
+}
+
+#servicios p{
+	margin-bottom: 70px;
+}
+
+#servicios i, h3, p{
+	margin-bottom: 20px;
+}
+
+.iconos{
+	font-size: 50px;
+	color: #bc40aa;
+}
+
+
+.bg-acerca{
+	background-image: url("../img/acerca-maria-valle-byn.png");
+	height: 100vh;
+}
+
+
+
+#proyectos{
+	color: #e57ad1; 
+}
+
+#proyectos h2{
+	color: #e57ad1; 
+}
+
+#proyectos h3{
+	margin: 40px;
+}
+
+#proyectos p{
+	margin-bottom: 80px;
+}
+
+.titulos-proyectos{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+}
+
+
+
+.proyectos{
+	position: relative;
+	overflow: hidden;
+}
+
+.proyectos-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(229,122,209,0.75);
+	opacity: 0;
+	transition: all 0.8s ease-in;
+	z-index: 10;
+}
+
+.proyectos-texto{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.8s ease-in;
+	z-index: 20;
+}
+
+.proyectos:hover .proyectos-fondo,
+.proyectos:hover .proyectos-texto{
+	opacity: 100;
+}
+
+.proyectos-frame{
+	position: absolute;
+	top: 0;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+}
+
+.proyectos:hover img{
+	transform: scale(1.5);
+	transition: all 0.8s ease-in-out;
+	filter: blur(0px);
+}
+
+.proyectos img{
+	transition:  all 0.8s ease-in-out;
+}
+
+.btn{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #e57ad1;
+}
+
+.btn:hover{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #fff;
+	background-color: #bc40aa;
+}
+
+
+
+#map{
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+}
+
