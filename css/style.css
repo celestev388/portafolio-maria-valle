@@ -33,6 +33,10 @@ header{
 	min-height: 300px;
 }
 
+.fab{
+	font-size: 20px;
+}
+
 #acerca{
 	background-size: cover;
 	background-position: top;
@@ -198,10 +202,80 @@ header{
 }
 
 
+#slides .tag{
+	font-size: 16px;
+	font-style: italic;
+}
+
+#slides .sub{
+	font-size: 20px;
+}
+
+#slides h1{
+	font-size: 60px;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+
+#slides .carousel-item img{
+	height: 640px;
+}
+
+#slides .carousel-caption{
+	top: 20%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.slide-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.55);
+}
+
+#contacto{
+	background-color: #bc40aa;
+	color: #fff;
+}
+
+#contacto h2{
+	color: #fff;
+}
+
+#contacto li{
+	color: #fff;
+}
+
+#contacto .btn{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #e57ad1;
+	font-weight: bold;
+}
+
+#contacto .btn:hover{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #fff;
+	background-color: #e57ad1;
+	font-weight: bold;
+}
+
 
 #map{
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	margin-top: 50px;
+}
+
+footer{
+	background-color: #e57ad1;
+	color: #fff;
+	font-size: 12px;
+	padding: 30px 0;
+}
+footer img{
+	margin-bottom: 20px;
 }
 
